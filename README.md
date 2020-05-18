@@ -21,3 +21,5 @@ cargo run --release -- -r -w -n 1000 -p frames/ -s 0.02 4s.wav
 ```
 
 This will generate an animation of how some ~20Hz sine pulses are approximated by complex exponentials. It saves a .png file for each frame into the `frames/` directory, and then `./compile-video.sh` uses ffmpeg to stitch them together into a video.
+
+![screenshot](screenshot.png)
