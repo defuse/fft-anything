@@ -11,8 +11,9 @@ rustfft = "3.0.1"
 hound = "3.4.0"
 ctrlc = "3.1.4"
 png = "0.16.3"
+clap = "2.33.1"
 
 
 [dependencies.sdl2]
 version = "0.34"
-features = ["bundled", "ttf"]
+features = ["ttf"]
